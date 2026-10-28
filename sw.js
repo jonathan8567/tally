@@ -1,5 +1,5 @@
 // 介面檔案的離線快取：先抓網路上的新版，沒網路時才用快取。後台資料不經過這裡。
-const CACHE = 'tally-v1';
+const CACHE = 'tally-v2';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
